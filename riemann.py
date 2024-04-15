@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from math import exp
 
 def riemann_sum(lower:float, upper:float,delta:int, func) -> float:
     dx = (upper - lower)/delta
